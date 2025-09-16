@@ -1,0 +1,91 @@
+/* General Page Setup */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(11, 77, 176);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Main container */
+.container {
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  width: 90%;
+  max-width: 420px;
+}
+
+/* Heading */
+h1.cap {
+  text-transform: uppercase;
+  color: #0077cc;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+/* Search box */
+.search-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 12px;
+  border: 2px solid #0077cc;
+  border-radius: 8px 0 0 8px;
+  outline: none;
+  font-size: 1rem;
+}
+
+.search-box button {
+  padding: 12px 18px;
+  border: none;
+  background: #0077cc;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 0 8px 8px 0;
+  transition: background 0.3s;
+}
+
+.search-box button:hover {
+  background: #005fa3;
+}
+
+/* Movie Card */
+.movie-card {
+  margin-top: 20px;
+}
+
+.movie-card img {
+  max-width: 250px;
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.movie-info span {
+  display: block;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #333;
+  text-transform: uppercase; /* ALL CAPS */
+}
+
+
+.cap{
+    color: #005fa3;
+    justify-content: center; 
+    text-transform: uppercase;
+}
+

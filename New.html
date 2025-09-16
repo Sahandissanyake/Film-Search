@@ -1,11 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Finder</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="cap">You Can Find Your Choice</h1>
+
+    <div class="search-box">
+      <input id="input" placeholder="Enter movie name...">
+      <button onclick="search()">Search</button>
+    </div>
+
+    <div class="movie-card">
+      <img id="poster" alt="Movie Poster">
+      <div class="movie-info">
+        <span id="title">Movie Title</span><br>
+        <span id="year">Movie Year</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="javascript.js"></script>
+</body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    
 </head>
 <body>
-    
+    <h1 class="cap">You can find your choise</h1>
+    <input id="input">
+    <button onclick="search()">Search</button>
+    <span id="title">Movie title</span>
+    <span id="year">Movie year</span><br>
+    <img id="poster" alt="image">
+
+    <script src="javascript.js"></script>
 </body>
-</html>
+</html> -->
